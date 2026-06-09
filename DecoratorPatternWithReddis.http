@@ -1,0 +1,6 @@
+@DecoratorPatternWithReddis_HostAddress = http://localhost:5092
+
+GET {{DecoratorPatternWithReddis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
