@@ -27,7 +27,7 @@ Redis is introduced through a caching decorator, keeping business logic clean an
 
 Encapsulates data access logic.
 
-Decorator Pattern
+### Decorator Pattern
 
 Adds Redis caching behavior without changing repository implementation.
 
