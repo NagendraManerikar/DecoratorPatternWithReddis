@@ -113,8 +113,30 @@ DecoratorPatternWithRedis
     ├── Controllers
     ├── Program.cs
     └── appsettings.json
-
-
 ```
 
+## ⚙️ Running Locally
+
+### 1. Clone repository
+```
+git clone https://github.com/NagendraManerikar/DecoratorPatternWithReddis
+```
+### 2. Restore Packages
+dotnet restore
+
+### 3. Run Redis or use Redis cloud (put appropriate values under appsettings.json)
+
+### 4. Run API
+
+## 📖 Sample API
+### Get Product
+GET /api/products/1
+### First Request
+Database Hit (hardcoded values in this case)
+### Subsequent Requests
+Redis Cache Hit
+
+## 📜 License
+
+MIT License — Free to use for learning purposes.
 
