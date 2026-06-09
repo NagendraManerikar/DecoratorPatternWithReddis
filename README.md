@@ -64,6 +64,7 @@ The project uses Polly to handle transient Redis failures.
 Implemented:
 
 ### Retry Policy
+```text
 Attempt 1
    ↓
 Retry
@@ -71,6 +72,7 @@ Retry
 Retry
    ↓
 Success / Fail
+```
 ```mermaid
 flowchart TD
     Request --> Redis
@@ -80,6 +82,7 @@ flowchart TD
     Retry2 --> Success
 ```
 ### Circuit Breaker
+```text
 Repeated Failures
       ↓
 Circuit Opens
@@ -87,6 +90,7 @@ Circuit Opens
 Temporary Protection
       ↓
 Automatic Recovery
+```
 
 Benefits:
 
