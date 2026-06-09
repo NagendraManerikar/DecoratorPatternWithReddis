@@ -31,9 +31,11 @@ Encapsulates data access logic.
 
 Adds Redis caching behavior without changing repository implementation.
 
+```text
 ProductRepository
         ↑
 CachedProductRepository
+```
 
 Benefits:
 
