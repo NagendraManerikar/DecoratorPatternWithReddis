@@ -128,7 +128,9 @@ DecoratorPatternWithRedis
 git clone https://github.com/NagendraManerikar/DecoratorPatternWithReddis
 ```
 ### 2. Restore Packages
+```
 dotnet restore
+```
 
 ### 3. Run Redis or use Redis cloud (put appropriate values under appsettings.json)
 
