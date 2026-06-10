@@ -1,4 +1,4 @@
- ## 🚀 Decorator Pattern with Redis Caching in ASP.NET Core (.NET 8)
+ # 🚀 Decorator Pattern with Redis Caching in ASP.NET Core (.NET 8)
 
 A sample ASP.NET Core Web API demonstrating:
 Clean Architecture
